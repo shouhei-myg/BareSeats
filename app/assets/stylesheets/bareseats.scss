@@ -33,21 +33,17 @@ table {
   border-spacing: 0;
 }
 
-table th:first-child {
-  border-radius: 5px 0 0 0;
+td, th {
+  color: #8B4513;
 }
 
-table th:last-child {
-  border-radius: 0 5px 0 0;
-  border-right: 1px solid #3c6690;
+table th:first-child {
+  border-radius: 5px 0 0 0;
 }
 
 table th {
   text-align: center;
   background: linear-gradient(#829E64,#66995B);
-  border-left: 1px solid #999933;
-  border-top: 1px solid #999933;
-  border-bottom: 1px solid #999933;
   box-shadow: 0px 1px 1px rgba(255,255,255,0.3) inset;
   width: 25%;
   padding: 10px 0;
@@ -55,16 +51,10 @@ table th {
 
 table td {
   text-align: center;
-  border-left: 1px solid #a8b7c5;
-  border-bottom: 1px solid #a8b7c5;
   border-top:none;
   box-shadow: 0px -3px 5px 1px #669966 inset;
   width: 25%;
   padding: 10px 0;
-}
-
-table td:last-child {
-  border-right: 1px solid #a8b7c5;
 }
 
 table tr:last-child td:first-child {
@@ -77,4 +67,5 @@ table tr:last-child td:last-child {
 
 li {
   line-height: 35px;
+  color: #8B4513;
 }
