@@ -1,0 +1,2 @@
+module BareseatsHelper
+end
